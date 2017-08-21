@@ -6,16 +6,21 @@ using System;
 using UnityEngine.UI;
 
 public class Game : MonoBehaviour {
-	public static GameObject GameOverCanvas;
+	public static GameObject GameOverCanvas, OptionsCanvas;
 	public Player player;
 	void Start () {
 		GameOverCanvas = GameObject.FindGameObjectWithTag ("GameOverCanvas");
+		OptionsCanvas = GameObject.FindGameObjectWithTag ("OptionsCanvas");
 		GameOverCanvas.SetActive (false);
+		OptionsCanvas.SetActive (false);
 		player = GameObject.FindGameObjectWithTag ("Player").GetComponent<Player> ();
+		ZombieBehavior.LoadSoundFX ();
 	}
 
 	void Update() {
 		if (!player.IsAlive ()) {
+			OptionsCanvas.SetActive (false);
+
 			// Rotate death camera
 			var camera = Camera.main.transform;
 			if (Camera.main.transform.rotation.eulerAngles.x < 65f || Camera.main.transform.rotation.eulerAngles.x > 295f) {
@@ -36,7 +41,7 @@ public class Game : MonoBehaviour {
 			}
 		} else {
 			if (Input.GetKeyDown (KeyCode.Escape)) {
-				GameOverCanvas.SetActive (!GameOverCanvas.activeSelf);
+				OptionsCanvas.SetActive (!OptionsCanvas.activeSelf);
 			}
 		}
 	}

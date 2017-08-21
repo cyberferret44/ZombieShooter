@@ -13,8 +13,10 @@ public class Player : MonoBehaviour {
 	private DamageIndicatorBehavior damageIndicator;
 	private bool StillAlive = true;
 	private const float ZOMBIE_DAMAGE_DEALT = .15f; // represented as a percentage... i.e. 20%
+	AudioSource Gunshot;
 
 	void Start() {
+		Gunshot = GameObject.FindGameObjectWithTag ("Gunshot").GetComponent<AudioSource> ();
 		scoreText = (GameObject.FindGameObjectWithTag ("ScoreText")).GetComponent<Text>();
 		damageIndicator = GameObject.FindGameObjectWithTag ("DamageIndicator").GetComponent<DamageIndicatorBehavior> ();
 	}
@@ -48,7 +50,9 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-	public void ShootGun() {
+	public void ShootGun() {		
+		Gunshot.Play ();
+
 		RaycastHit hit;
 		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
 		if (Physics.Raycast (ray, out hit, 50.0f)) {					

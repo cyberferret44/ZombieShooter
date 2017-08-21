@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4D9B8FB8-ADC4-0F42-1D0E-EB0A5E7EEC02}</ProjectGuid>
+    <ProjectGuid>{7D35A77C-A9E4-E1E4-A0F9-AC36A028FA3E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -95,10 +95,8 @@
      <Compile Include="Assets\Player.cs" />
      <Compile Include="Assets\ZombieBehavior.cs" />
      <Compile Include="Assets\ZombieSpawningController.cs" />
-     <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
-     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
@@ -106,19 +104,15 @@
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
-     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
-     <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
-     <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
-     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
@@ -127,15 +121,13 @@
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
-     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
-     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
-     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
@@ -152,7 +144,6 @@
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
-     <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
@@ -163,7 +154,6 @@
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
-     <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
      <None Include="Assets\NatureStarterKit\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />

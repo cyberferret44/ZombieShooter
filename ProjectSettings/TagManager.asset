@@ -12,6 +12,12 @@ TagManager:
   - DamageIndicator
   - HealthMask
   - HealthBar
+  - Gunshot
+  - OptionCanvas
+  - OptionsCanvas
+  - ZombieMoanSound
+  - ZombieAttackSound
+  - JumpScare
   layers:
   - Default
   - TransparentFX
